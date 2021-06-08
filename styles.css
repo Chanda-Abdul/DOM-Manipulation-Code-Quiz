@@ -1,0 +1,48 @@
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .content-box {
+    align-items: center;
+} */
+.app {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+/* .answer-select {
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; } */
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    background: aliceblue;
+    border-radius: 4px;
+}
+
+btn:hover {
+    cursor: pointer;
+}

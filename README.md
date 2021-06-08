@@ -1,6 +1,6 @@
 ## Your Task
  
-you’ll likely be asked to complete a coding assessment;
+You’ll likely be asked to complete a coding assessment;
 perhaps as part of an interview process. A typical coding assessment includes
 both multiple-choice questions and interactive coding challenges. 
  
