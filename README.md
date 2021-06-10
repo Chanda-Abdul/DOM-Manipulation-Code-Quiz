@@ -37,7 +37,7 @@ Link to [final project](https://nervous-engelbart-e24713.netlify.app/) & previou
 ## Screens
 
 ### Landing Page
-<img src="./images/home.png" alt="Image of home screen" width="420px">
+<img src="./images/home.png" alt="Image of home screen" width="650px">
 
 ### Question Screen
 <img src="./src/screens/infopage1.png" alt="Image of infopage" width="420px">
