@@ -15,57 +15,54 @@
   </head>
   <body>
     <div class="content-box">
-    <!-- stats box -->
-    <div class="stats container-fluid">
-      <button type="button" class="btn btn-default">
-        Time Left <span class="badge bg-secondary timer">2:00</span>
-      </button>
-      <button type="button" class="btn btn-default">
-        Score <span class="badge bg-secondary score">0</span>
-      </button>
-    </div>
-    <!-- progress -->
-    <div class="progress-container"></div>
-    <div class="progress-bar"></div>
+      <!-- stats box -->
+      <div class="stats container-fluid">
+        <button type="button" class="btn btn-default">
+          Time Left <span class="badge bg-secondary timer">2:00</span>
+        </button>
+        <button type="button" class="btn btn-default">
+          Score <span class="badge bg-secondary score">0</span>
+        </button>
+      </div>
+      <!-- progress -->
+      <div id="progressBar">
+        <div id="progressBarFull"></div>
+      </div>
+      <p id="progress-text">Question</p>
+      
 
-    <!-- questions -->
-    <div class="question-box">
-      <!-- <div class="question-container row-12"> -->
-      <h1 class="question-title">First question</h1>
+      <!-- questions -->
 
-      <div class="answer-container">
-        <div class="answer-select row-12 choice-container" id="answer-container">
-          <p class="row-4 choice-prefix">A</p>
-          <p class="row-8 choice-text" data-letter="a">choice a</p>
-        </div>
-        <div class="answer-select row-12 choice-container">
-          <p class="row-4 choice-prefix">B</p>
-          <p class="row-8 data-b choice-text" data-letter="b">choice b</p>
-        </div>
-        <div class="answer-select row-12choice-container">
-          <p class="row-4 choice-prefix">C</p>
-          <p class="row-8 data-c choice-text" data-letter="c">choice c</p>
-        </div>
-        <div class="answer-select row-12 choice-container">
-          <p class="row-4 choice-prefix">D</p>
-          <p class="choice-text row-8 data-d" data-letter="d">choice d</p>
-        </div>
-        <!-- </div> -->
+      <h2 class="question">What is the question?</h2>
+      <div class="choice-container">
+        <h3 class="choice-prefix">A</h3>
+        <h5 class="choice-text" data-letter="a">Choice a</h5>
+      </div>
+      <div class="choice-container">
+        <h3 class="choice-prefix">B</h3>
+        <h5 class="choice-text" data-letter="b">Choice b</h5>
+      </div>
+      <div class="choice-container">
+        <h3 class="choice-prefix">C</h3>
+        <h5 class="choice-text" data-letter="c">Choice c</h5>
+      </div>
+      <div class="choice-container">
+        <h3 class="choice-prefix">D</h3>
+        <h5 class="choice-text" data-letter="d">Choice d</h5>
+      </div>
+
+     
+
+      <!-- end  button  -->
+      <div class="end container-fluid">
+        <a href="./end.html">
+          <button class="btn-default btn">Exit</button>
+        </a>
+        <a href="./index.html">
+          <button class="btn-default btn">Restart</button>
+        </a>
       </div>
     </div>
-
-    <!-- end  button  -->
-    <div class="end container-fluid">
-      
-        <button class="btn-default btn "><a href="./end.html"
-          >Exit</a
-          ></button>
-
-      <button class="btn-default btn"><a href="./index.html"
-        >Restart</a
-        ></button>
-    </div>
-  </div>
     <script type="text/javascript" src="questionbank.js"></script>
     <script type="text/javascript" src="quiz.js"></script>
   </body>

@@ -14,12 +14,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <!-- end  button  -->
     <div class="content-box container-fluid">
       <div id="end" class="flex-center flex-column">
+        <h3>Your Final Score is</h3>
         <h1 class="finalScore">0</h1>
+        <h3>points!</h3>
         <form class="end form-group">
-          <h3 id="end-text" >Enter your name below to save your score</h3>
+          <h5 id="end-text">Enter your name below to save your score</h5>
           <input
             type="text"
             name="name"
@@ -37,11 +38,14 @@
             Save
           </button>
         </form>
-        <button class="btn-default btn">
-            <a href="./quiz.html" >Play Again</a></button>
-        <button class="btn-default btn"><a href="./index.html">Go Home</a></button>
-        
-        
+        <div class="end container-fluid">
+          <a href="./quiz.html"
+            ><button class="btn-default btn">Play Again</button></a
+          >
+          <a href="./index.html"
+            ><button class="btn-default btn">Go Home</button></a
+          >
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="end.js"></script>

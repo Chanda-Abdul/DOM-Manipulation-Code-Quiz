@@ -26,7 +26,6 @@ const questionBank = [
     answer: "a"
   },
   {
-    // id: 4,
     question:
       "This brands' crocodile logo was created in 1933, and was the first ever designer logo.",
     a: "Givenchy",
