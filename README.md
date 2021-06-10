@@ -40,13 +40,13 @@ Link to [final project](https://nervous-engelbart-e24713.netlify.app/) & previou
 <img src="./images/home.png" alt="Image of home screen" width="650px">
 
 ### Question Screen
-<img src="./src/screens/infopage1.png" alt="Image of infopage" width="420px">
-<img src="./images/home.png" alt="Image of home screen" width="420px">
-<img src="./images/home.png" alt="Image of home screen" width="420px">
-<img src="./images/home.png" alt="Image of home screen" width="420px">
+<img src="./images/quiz.png" alt="Image of quiz screen" width="650px">
+<img src="./images/quizcorrect.png" alt="Image of quiz screen" width="650px">
+<img src="./images/quizincorrect.png" alt="Image of quiz screen" width="650px">
+<img src="./images/outoftime.png" alt="Image of quiz screen" width="650px">
 
 ### Final Score
-<img src="./images/results.png" alt="Image of home screen" width="420px">
+<img src="./images/results.png" alt="Image of results screen" width="650px">
 
 ### Leaderboard
-<img src="./images/leaderboard.png" alt="Image of home screen" width="420px">
+<img src="./images/leaderboard.png" alt="Image of leaderboard screen" width="650px">
