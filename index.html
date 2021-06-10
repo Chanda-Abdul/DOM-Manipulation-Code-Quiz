@@ -12,30 +12,44 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script type="text/javascript" src="questionbank.js"></script>
-    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
     <!-- starter info box -->
-    <div class="app container-fluid">
-      <h1 class="title">JavaScript Quiz</h1>
-
+    <div class="content-box container-fluid">
+      <h1 class="title">Fashion Quiz</h1>
+      <h3 class="rules title how-to">Rules of the game</h3>
       <div class="rules-box">
-        <h2 class="rules title how-to">how to play</h2>
-        <ul class="rules-list">
-          <li>Rule 1</li>
-          <li>Rule 2</li>
-          <li>Rule 3</li>
-          <li>Rule 4</li>
-          <li>Rule 5</li>
+        <ul class="rules-list list-unstyled">
+          <li>Click The <b>Start</b> button begin the quiz</li>
+          <li>Once you click <b>Start</b> a two minute timer will begin</li>
+          <li>
+            You will have two minutes to answer ten multiple choice questions
+          </li>
+          <li>
+            When you answer a question correctly 10 points will be added to your
+            score and you will be taken to the next question
+          </li>
+          <li>
+            If you answer incorrectly no points will be added to the score and
+            you will move onto the next question
+          </li>
+          <li>
+            Once you answer all the questions you can add your name to record
+            your high score to the Leaderboard
+          </li>
         </ul>
       </div>
       <!-- start button  -->
       <div class="start-box container-fluid">
-        <a href="./quiz.html" class="start">
-          <button class="btn-dark btn">START</button>
-        </a>
+        <button class="btn-default btn">
+          <a href="./quiz.html" class="start"> Start</a>
+        </button>
+        <button class="btn-default btn">
+          <a href="./highscores.html" class="highScores"> High Scores </a>
+        </button>
       </div>
     </div>
+    <script type="text/javascript" src="questionbank.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

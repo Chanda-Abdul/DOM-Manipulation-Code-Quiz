@@ -1,8 +1,7 @@
 const question = document.querySelector(".question-box");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
-
+// console.log(choices, "choices")
 const scoreText = document.querySelector(".score");
-const timer = document.querySelector("timer-box");
 const progressText = document.querySelector(".progress-container");
 //review
 const progressBar = document.querySelector(".progress-bar");
@@ -11,11 +10,9 @@ let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let timeLeft = 120;
 let availableQuestions = [];
 
 const questionList = questionBank;
-// console.log(questionList, "QL");
 
 const SCORE_POINTS = 10;
 const MAX_QUESTIONS = 10;
@@ -25,7 +22,33 @@ startQuiz = () => {
   score = 0;
   availableQuestions = [...questionList];
   getNewQuestion();
+  startTimer()
 };
+
+startTimer = () => {
+  let timeLeft = 120;
+  setInterval(function() {
+    timeLeft--
+    if(timeLeft >= 0) {
+      const timer = document.querySelector(".timer");
+      seconds = timeLeft % 60
+      minutes = Math.floor(timeLeft/60)
+      if(minutes < 10) {
+        minutes = `0${minutes}`
+      }
+      if(seconds < 10) {
+        seconds= `0${seconds}`
+      }
+      timer.innerHTML = `${minutes}: ${seconds}`
+    }
+   
+    if(timeLeft === 0) {
+      alert("Sorry out of time!")
+      clearInterval(timeLeft)
+      startQuiz()
+    }
+  }, 1000)
+}
 
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
@@ -48,9 +71,10 @@ getNewQuestion = () => {
   choices.forEach(choice => {
     // const letter = choice.dataset["letter"];
     // review - why isn't this displaying to the DOM, innerText?
-    console.log(choices.innerText, "IT")
-    choice.innerText = currentQuestion[choice.dataset["letter"]];
+    
+    choice.dataset.innerHTML = currentQuestion[choice.dataset["letter"]];
     console.log(currentQuestion[choice.dataset["letter"]])
+    console.log(choices.innerText, "cho")
   });
 
   availableQuestions.splice(questionsIndex, 1);

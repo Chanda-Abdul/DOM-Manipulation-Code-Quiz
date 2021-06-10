@@ -12,19 +12,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="quiz.css" />
-    
   </head>
   <body>
+    <div class="content-box">
     <!-- stats box -->
     <div class="stats container-fluid">
-      <button type="button" class="btn btn-primary">
-        Time Left<span class="badge bg-secondary">0</span>
+      <button type="button" class="btn btn-default">
+        Time Left <span class="badge bg-secondary timer">2:00</span>
       </button>
-       <button type="button" class="btn btn-primary">
+      <button type="button" class="btn btn-default">
         Score <span class="badge bg-secondary score">0</span>
       </button>
-      
     </div>
     <!-- progress -->
     <div class="progress-container"></div>
@@ -33,43 +31,42 @@
     <!-- questions -->
     <div class="question-box">
       <!-- <div class="question-container row-12"> -->
-        <h1 class="question-title">First question</h1>
+      <h1 class="question-title">First question</h1>
 
-        <div class="answer-container">
-          <div class="answer-select row-12 choice-container">
-            <p class="row-4 answer-prefix">A</p>
-            <p class="row-8 choice-text" data-letter="a">choice a</p>
-          </div>
-          <div class="answer-select row-12 choice-container">
-            <p class="row-4 answer-b">B</p>
-            <p class="row-8 data-b choice-text" data-letter="b">
-              choice b
-            </p>
-          </div>
-          <div class="answer-select row-12choice-container">
-            <p class="row-4 answer-c">C</p>
-            <p class="row-8 data-c choice-text" data-letter="c">
-              choice c
-            </p>
-          </div>
-          <div class="answer-select row-12 choice-container">
-            <p class="row-4 answer-d">D</p>
-            <p class="choice-text row-8 data-d" data-letter="d">
-              choice d
-            </p>
-          </div>
+      <div class="answer-container">
+        <div class="answer-select row-12 choice-container" id="answer-container">
+          <p class="row-4 choice-prefix">A</p>
+          <p class="row-8 choice-text" data-letter="a">choice a</p>
+        </div>
+        <div class="answer-select row-12 choice-container">
+          <p class="row-4 choice-prefix">B</p>
+          <p class="row-8 data-b choice-text" data-letter="b">choice b</p>
+        </div>
+        <div class="answer-select row-12choice-container">
+          <p class="row-4 choice-prefix">C</p>
+          <p class="row-8 data-c choice-text" data-letter="c">choice c</p>
+        </div>
+        <div class="answer-select row-12 choice-container">
+          <p class="row-4 choice-prefix">D</p>
+          <p class="choice-text row-8 data-d" data-letter="d">choice d</p>
+        </div>
         <!-- </div> -->
       </div>
     </div>
 
     <!-- end  button  -->
     <div class="end container-fluid">
-      <a href="./end.html" class="end"><button class="exit-btn btn">exit</button></a>
+      
+        <button class="btn-default btn "><a href="./end.html"
+          >Exit</a
+          ></button>
 
-      <a href="./index.html" class="restart"
-        ><button class="restart-btn btn">restart</button></a>
+      <button class="btn-default btn"><a href="./index.html"
+        >Restart</a
+        ></button>
     </div>
-    <script type="text/javascript" src="questionbank.js" defer></script>
-    <script type="text/javascript" src="quiz.js" defer></script>
+  </div>
+    <script type="text/javascript" src="questionbank.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
   </body>
 </html>

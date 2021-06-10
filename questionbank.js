@@ -1,101 +1,92 @@
 const questionBank = [
   {
-    // id: 1,
-    question: "What are variables used for in JavaScript Programs?",
-    a: "Storing numbers, dates, or other values",
-    b: "Varying randomly",
-    c: "Causing high-school algebra flashbacks",
-    d: "None of the above",
-    answer: "a"
+    question:
+      "Which fashion designer is credited with introducing the “Little Black Dress” or “LBD”?",
+    a: "Vera Wang",
+    b: "Yves Saint Laurent",
+    c: "Gabrielle “Coco” Chanel",
+    d: "Kate Spade",
+    answer: "c"
   },
   {
-    // id: 2,
-    question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
-    answer: "a"
+    question: "This designers' muse was his sister, Donatella.",
+    a: "Alexander McQueen",
+    b: "Calvin Klein",
+    c: "Oscar de la Renta",
+    d: "Gianni Versace",
+    answer: "d"
   },
   {
-    // id: 3,
     question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
+      "This environmentally conscious designer is the daughter of Beatles legend Sir Paul McCartney.",
+    a: "Stella McCartney",
+    b: "Stella Artois",
+    c: "Ronald McCartney",
+    d: "Anna Sui",
     answer: "a"
   },
   {
     // id: 4,
     question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
-    answer: "a"
+      "This brands' crocodile logo was created in 1933, and was the first ever designer logo.",
+    a: "Givenchy",
+    b: "Balenciaga",
+    c: "Lacoste",
+    d: "Fendi",
+    answer: "c"
+  },
+
+  {
+    question: "Which fashion designers' real name is Ralph Lifshitz?",
+    a: "Alexander Wang",
+    b: "Giorgio Armani",
+    c: "Ralph Lauren",
+    d: "Karl Lagerfeld",
+    answer: "c"
   },
   {
-    // id: 5,
     question:
-      "How does JavaScript store dates in a date object?",
-    a: "The number of days since January 1st, 1900",
-    b: " The number of milliseconds since January 1st, 1970",
-    c: "The number of seconds since Netscape's public stock offering.",
-    d: "None of the above",
+      "Fashion brand Miu Miu is a subsidiary of which famous Italian Fashion House?",
+    a: "Dries Van Noten",
+    b: "Marc Jacobs",
+    c: "Valentino",
+    d: "Prada",
+    answer: "d"
+  },
+  {
+    question:
+      "Ladies love thier bags, which brand is responsible for creating the most wanted Birkin” bag, named after British actress Jane Birkin?",
+    a: "Louis Vuitton",
+    b: "Hermes",
+    c: "Celine",
+    d: "Gucci",
     answer: "b"
   },
   {
-    // id: 6,
     question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
-    answer: "a"
-  },
-  {
-    // id: 7,
-    question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
-    answer: "a"
-  },
-  {
-    // id: 8,
-    question:
-      "Which of the following is not a valid JavaScript variable name?",
-    a: "_first_and_last_names",
-    b: "FirstAndLast",
-    c: "2names",
-    d: "None of the above",
+      "Which French shoe designer is known for his eye catching red-bottom shoes, and is a leader in the trend toward higher heel heights?",
+    a: "Manolo Blahnik",
+    b: "Tom Ford",
+    c: "Christian Louboutin",
+    d: "Dior",
     answer: "c"
   },
   {
-    // id: 9,
     question:
-      "Which built-in method reverses the order of the elements of an array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "reverse()",
-    d: "toString()",
-    answer: "c"
+      "Which historic English brand is known for developing thier iconic trench coat during World War I?",
+    a: "Halston",
+    b: "Burberry",
+    c: "Club Monaco",
+    d: "Dolce & Gabanna",
+    answer: "b"
   },
   {
-    // id: 10,
     question:
-      "Which of the following function of Array object adds one or more elements to the front of an array and returns the new length of the array?",
-    a: "unshift()",
-    b: "sort()",
-    c: "splice()",
-    d: "toString()",
-    answer: "a"
+      "As much as women love a “Little Black Dress”, which fashion designer is responsible for introducing us to the versatile, figure-flattering, jersey wrap-dress silhouette?",
+    a: "Vivienne Westwood",
+    b: "Betsey Johnson",
+    c: "Carolina Herrera",
+    d: "Diane Von Furstenberg",
+    answer: "d"
   }
 ];
